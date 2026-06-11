@@ -1,18 +1,11 @@
-MIRAY VS AILE - ANDROID STUDIO APK PROJESI
+MIRAY VS AILE V4 - Android Studio / GitHub Actions APK Projesi
 
-Bu paket gerçek APK üretmek için hazırlandı.
+Bu sürüm oyun döngüsü sabitlenmiş sürümdür.
+Menüden sonra skor hemen artar ve engeller direkt gelmeye başlar.
 
-APK alma adımları:
-1) Bilgisayara Android Studio kur.
-2) Bu ZIP dosyasını çıkar.
-3) Android Studio > Open > MirayVsAile_AndroidStudio_Project klasörünü seç.
-4) Proje açılınca üst menüden:
-   Build > Build Bundle(s) / APK(s) > Build APK(s)
-5) İşlem bitince Android Studio sağ altta "locate" der.
-6) APK genelde şu klasörde olur:
-   app/build/outputs/apk/debug/app-debug.apk
-7) APK dosyasını telefona at.
-8) Telefonda açarken "Bilinmeyen uygulamalara izin ver" seçeneğini açman gerekebilir.
+GitHub'a yüklerken:
+- Bu ZIP'i çıkar.
+- İçindeki dosyaları repoya yükle.
+- Var olan dosyaların üzerine yaz.
+- Actions otomatik APK üretir.
 
-Not:
-Bu proje WebView içinde çalışır. Yani tarayıcıdaki content:// sorunu olmaz.
